@@ -32,3 +32,15 @@ position it in the middle of its parent wrapper*/
   transform: translate(-50%, -50%);
   z-index: -10;
 }
+
+.jumbotron{
+  z-index: -1;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(217,85,88,0.4),
+      rgba(18,234,234,0.4)
+    );
+    /*url(../assets/Photos/JungeLeuteessenSushiinAsiaRestaurant.jpg);*/
+  background-size: cover;
+  background-position: center;
+}
