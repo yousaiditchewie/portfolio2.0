@@ -37,8 +37,8 @@ position it in the middle of its parent wrapper*/
   z-index: -1;
   height: 100vh;
   background: linear-gradient(
-      rgba(217,85,88,0.4),
-      rgba(18,234,234,0.4)
+      rgba(217,85,88,0.55),
+      rgba(18,234,234,0.55)
     );
     /*url(../assets/Photos/JungeLeuteessenSushiinAsiaRestaurant.jpg);*/
   background-size: cover;
