@@ -1,12 +1,17 @@
 body {
   font-family: 'Libre Franklin', sans-serif;
-  background-color: black;
+  background-color: #022b3a;
 }
 
 /*HIDE MOBILE SITE FROM DESKTOP*/
 #mobile {
   display: none;
 }
+/*HELPER CLASSES*/
+.shadows {
+  text-shadow: 0px 2px 8px rgba(2,43,58,0.65);
+}
+
 /*VIDEO CSS*/
 
 /* Makes a fixed background wrapper
@@ -31,41 +36,69 @@ position it in the middle of its parent wrapper*/
   height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
   min-height: 100vh;
   min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -10;
 }
 
+/*rgba(217,85,88,0.65),
+rgba(18,234,234,0.65)*/
 .jumbotron{
-  z-index: -1;
+  z-index: -5;
   height: 100vh;
-  min-height: 500px;
+  min-height: 600px;
   background: linear-gradient(
-      rgba(217,85,88,0.55),
-      rgba(18,234,234,0.55)
+      rgba(217,85,88,0.4),
+      rgba(18,234,234,0.4)
     );
-    /*url(../assets/Photos/JungeLeuteessenSushiinAsiaRestaurant.jpg);*/
   background-size: cover;
   background-position: center;
   margin-bottom: 0px;
 }
 
-.links a {
-  color: white;
-  font-weight: 200;
-  margin: 30px 0px 0px 20px;
-}
 
-#name {
+#name h1 {
   color: white;
   font-weight: 100;
   font-size: 70px;
-  margin-top: 200px;
+  margin-top: 275px;
   margin-left: auto;
 }
-#name span {
+.makeBig {
   font-size: 90px;
 }
+.main h4 {
+  color: white;
+  font-weight: 100;
+  /*font-size: 30px;*/
+}
 
+.links {
+  margin-top: 100px;
+}
+#projectsLink {
+  color: white;
+  font-weight: 200;
+  margin-right: 20px;
+  margin-left: 0px;
+}
+#aboutMeLink {
+  color: white;
+  font-weight: 200;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+#contactLink {
+  color: white;
+  font-weight: 200;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+#resumeLink {
+  color: white;
+  font-weight: 200;
+  margin-right: 0px;
+  margin-left: 30px;
+}
