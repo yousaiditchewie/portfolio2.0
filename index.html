@@ -5,36 +5,48 @@
   <title>Jacob Allen | Web Developer | Los Angeles</title>
   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:200,300,400,500,600" rel="stylesheet">
   <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/mobile.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 </head>
 <body>
-  <div class="wrapper">
+  <!-- DESKTOP SITE -->
+  <div id="desktop">
 
     <div id="intro" class="jumbotron row">
 
       <!-- FULLSCREEN VIDEO -->
-      <div id="desktop" class="iframe-wrapper">
+      <div class="iframe-wrapper">
         <iframe src="https://player.vimeo.com/video/178973425?background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
 
       <!-- NAV BAR -->
-      <header class="left col s10 offset-s1">
-          <div class="name">
+      <header class="container col s10 offset-s1">
+          <!-- <div class="name">
             <a id="name" href="#!" class="brand-logo white-text left s12">
               J A C O B A L L E N
             </a>
-          </div>
-          <div class="links hide-on-small-only">
-            <div><a href="#!" id="contact" class="white-text shadows right">CONTACT</a></div>
-            <div><a href="#!" id="projects" class="white-text shadows right">PROJECTS</a></div>
+          </div> -->
+          <div class="links">
+            <div><a href="#!" id="resumeLink" class="right">RESUME</a></div>
+            <div><a href="#!" id="contactLink" class="right">CONTACT</a></div>
+            <div><a href="#!" id="aboutMeLink" class="right">ABOUT ME</a></div>
+            <div><a href="#!" id="projectsLink" class="right">PROJECTS</a></div>
           </div>
       </header>
-
+      <div class="container col valign-wrapper">
+        <h1 id="name" class="s12 valign center-align"><span>J</span class="makeBig"> A C O B <span class="makeBig">A</span> L L E N</h1>
+      </div>
 
     </div>
 
-  </div>
+  </div> <!-- END DESKTOP SITE -->
+
+  <!-- MOBILE SITE -->
+  <div id="mobile">
+
+  </div> <!-- END MOBILE SITE -->
 
   <script src="./scripts/main.js"></script>
 </body>

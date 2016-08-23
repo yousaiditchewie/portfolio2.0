@@ -1,7 +1,12 @@
 body {
+  font-family: 'Libre Franklin', sans-serif;
   background-color: black;
 }
 
+/*HIDE MOBILE SITE FROM DESKTOP*/
+#mobile {
+  display: none;
+}
 /*VIDEO CSS*/
 
 /* Makes a fixed background wrapper
@@ -36,6 +41,7 @@ position it in the middle of its parent wrapper*/
 .jumbotron{
   z-index: -1;
   height: 100vh;
+  min-height: 500px;
   background: linear-gradient(
       rgba(217,85,88,0.55),
       rgba(18,234,234,0.55)
@@ -43,4 +49,23 @@ position it in the middle of its parent wrapper*/
     /*url(../assets/Photos/JungeLeuteessenSushiinAsiaRestaurant.jpg);*/
   background-size: cover;
   background-position: center;
+  margin-bottom: 0px;
 }
+
+.links a {
+  color: white;
+  font-weight: 200;
+  margin: 30px 0px 0px 20px;
+}
+
+#name {
+  color: white;
+  font-weight: 100;
+  font-size: 70px;
+  margin-top: 200px;
+  margin-left: auto;
+}
+#name span {
+  font-size: 90px;
+}
+
