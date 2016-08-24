@@ -1,1 +1,31 @@
-mobile.css
+/*SMART PHONES*/
+@media only screen
+  and (min-device-width: 300px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  /*HIDE VIDEO*/
+  #desktop {
+    display: none;
+  }
+  body, html {
+    /*margin-top: -15px;*/
+    width: auto !important;
+    overflow-x: hidden !important;
+    background: linear-gradient(
+       rgba(2,43,58,0.7),
+       rgba(217,85,88,0.35)
+      ),
+      url(../assets/background.png);
+  }
+
+  #aboutMeContent {
+    background: linear-gradient(
+       rgba(2,43,58,0.7),
+       rgba(217,85,88,0.35)
+      ),
+      url(../assets/background.png);
+  }
+
+
+}

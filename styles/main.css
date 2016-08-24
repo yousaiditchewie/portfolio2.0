@@ -292,11 +292,11 @@ rgba(18,234,234,0.65)*/
 }
 
 #contact_photo {
-  background: linear-gradient(
-     rgba(2,43,58,0.7),
-     rgba(217,85,88,0.35)
-    ),
-    url(../assets/me.png);
+    background: linear-gradient(
+       rgba(2,43,58,0.7),
+       rgba(217,85,88,0.35)
+      ),
+      url(../assets/me.png);
   background-size: cover;
   background-position: center;
   height: 100%;
