@@ -145,22 +145,37 @@ rgba(18,234,234,0.65)*/
   height: 5px;
 }
 
-/*PROJECTS SECTION*/
+/*PROJECTS HEADER*/
 #projects {
   background-color: white;
   margin: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
+/*PROJECTS CONTENT*/
+#projectsContent {
+  background-color: #e7e8e7;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card-content {
+  color: #022B3A;
+  /*font-weight: 500;*/
+}
+#projectLinks {
+  color: #D95558;
+}
 
-/*ABOUT ME SECTION*/
+
+/*ABOUT ME HEADER*/
 #aboutMe {
   background-color: white;
   margin: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
+/*ABOUT ME CONTENT*/
 #aboutMeContent {
   height: 85vh;
   background: linear-gradient(
@@ -184,7 +199,7 @@ rgba(18,234,234,0.65)*/
   margin: 50px;
   max-height: 500px;
 }
-/*CONTACT SECTION*/
+/*CONTACT HEADER*/
 #contact {
   background-color: white;
   margin: 0px;
@@ -201,7 +216,7 @@ rgba(18,234,234,0.65)*/
 #contact_photo {
   background: linear-gradient(
      rgba(2,43,58,0.7),
-     rgba(217,85,88,0.55)
+     rgba(217,85,88,0.35)
     ),
     url(../assets/me.png);
   background-size: cover;
@@ -218,7 +233,13 @@ rgba(18,234,234,0.65)*/
 #contact_words h3 {
   color: #93B7BE;
   font-weight: 100;
+}
+#feelfree {
   margin-top: 100px;
+
+}
+#checkout {
+  margin-top: 200px;
 }
 #contact_words a {
   font-weight: 100;
