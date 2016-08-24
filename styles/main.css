@@ -254,6 +254,7 @@ rgba(18,234,234,0.65)*/
   max-height: 500px;
 }
 
+/*MAKE ABOUT ME SECTION DESKTOP RESPONSIVE*/
 @media screen and (max-width: 1200px) {
   .content p {
     font-size: 19px;
@@ -286,6 +287,7 @@ rgba(18,234,234,0.65)*/
 /*CONTACT CONTENT*/
 #contactContent {
   height: 86vh;
+  min-height: 600px;
   margin-bottom: 0px;
 }
 
@@ -339,4 +341,27 @@ rgba(18,234,234,0.65)*/
 }
 #resume {
   color: #D95558;
+}
+/*MAKE CONTACT SECTION DESKTOP RESPONSIVE*/
+@media screen and (max-width: 1097px) {
+  #feelfree {
+    font-size: 32px;
+  }
+  #checkout {
+    font-size: 32px;
+  }
+  #contact_words h5 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 838px) {
+  #feelfree {
+    font-size: 20px;
+  }
+  #checkout {
+    font-size: 20px;
+  }
+  #contact_words h5 {
+    font-size: 17px;
+  }
 }
